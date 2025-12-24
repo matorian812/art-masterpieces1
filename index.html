@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шедевры искусства: презентация</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Слайд навигации -->
+        <div class="slide-nav">
+            <button id="prev-btn" title="Предыдущий слайд">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slide-counter">
+                <span id="current-slide">1</span> / <span id="total-slides">46</span>
+            </div>
+            <button id="next-btn" title="Следующий слайд">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <button id="fullscreen-btn" title="Полный экран">
+                <i class="fas fa-expand"></i>
+            </button>
+        </div>
+
+        <!-- Содержание презентации -->
+        <div class="slides-wrapper">
+            <!-- Слайды будут вставлены здесь через JavaScript -->
+        </div>
+
+        <!-- Меню быстрой навигации -->
+        <div class="quick-nav">
+            <h3><i class="fas fa-list"></i> Быстрая навигация</h3>
+            <div class="nav-sections">
+                <button data-slide="1">Начало</button>
+                <button data-slide="3">Золотой век</button>
+                <button data-slide="5">Передвижники</button>
+                <button data-slide="9">Рубеж веков</button>
+                <button data-slide="11">Скульптура</button>
+                <button data-slide="14">Западное искусство</button>
+                <button data-slide="15">Заключение</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
